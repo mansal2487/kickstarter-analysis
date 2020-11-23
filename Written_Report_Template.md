@@ -8,6 +8,9 @@ The goal of this analysis is to help Louise understand how different campaigns p
 The analysis of this project was reletively straightforward. I thankfully didn't run into many challenges. One of them was not having used Excel's COUNTIFS() in a long time. It's probably easy to guess that this was an easy fix via the internet! A challenge that I didn't personally run into but others may have was being able to manipulate the charts almost soley using Excel's interface. I can imagine that there are people who had the same knowledge of using charts in Excel as I did but didn't process the interface the same way I did. My results are presented below.  
 ### Analysis of Outcomes Based on Launch Date
 This analysis required filtering the "parent category" column to reflect only the "theatre" campaigns. Using this, the outcomes column, and only the month part of the "date created conversion" column, I created a marked line chart to show the relationship between theatre campaign launch months and outcomes (see below).
+
+![alt text](https://github.com/mansal2487/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
+
 ### Analysis of Outcomes Based on Goals
 This analysis first required using Excel's COUNTIFS() function to count the number of "successful", "failed", and "canceled" outcomes that had "plays" as their subcategories and whose goal fell within a certain range (which we were provided with). I then found the percentage of "successful", "failed", and "canceled" outcomes for each of these ranges and plotted those numbers versus each range (see below).
 ### Challenges and Difficulties Encountered
